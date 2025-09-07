@@ -1,68 +1,41 @@
 🔥 Pygame Zero Platform Game
 
-Bu proje, Pygame Zero ile geliştirilmiş 2D platform türünde bir aksiyon oyunudur.
-Oyuncu karakteri, platformlarda ilerleyerek düşmanları alev saldırısıyla yenmeye çalışır.
-Amaç, mümkün olduğunca yüksek puan toplamaktır.
-
-🎮 Özellikler
-
-Platform tabanlı hareket ve zıplama mekaniği 🕹️
-
-Alev saldırısı ile düşman öldürme 🔥
-
-Düşmanların oyuncuyu takip etmesi 👾
-
-Oyun içi skor sistemi 📊
-
-Ana Menü ve Oyun Bitti ekranı 🎬
-
-Arka plan müziği ve ses efektleri 🎶
+Bu proje, Pygame Zero kullanılarak geliştirilmiş 2D platform türünde bir aksiyon oyunudur. Oyuncu karakteri platformlarda ilerleyerek düşmanları alev saldırısıyla yenmeye çalışır ve mümkün olduğunca yüksek puan toplamayı hedefler.
 
 📸 Ekran Görüntüleri
+
 Oyun Başlangıcı
+
 
 Oyun Bitti Ekranı
 
+
 Oynanış
 
-🚀 Kurulum ve Çalıştırma
 
-Python 3.9+ yüklü olmalıdır.
+🚀 Kurulum
+1. Repository’yi klonlayın
+git clone <repository-url>
+cd pygame-zero-platform-game
 
-Gerekli kütüphaneyi yükle:
-
+2. Python bağımlılıklarını yükleyin
 pip install pgzero
 
-
-Proje klasörüne girip oyunu başlat:
-
+3. Oyunu başlatın
 pgzrun oyun.py
 
 🎮 Kontroller
-
-← → : Sağ / Sol hareket
-
-↑ : Zıplama
-
-Space : Alev saldırısı
-
-ESC : Ana menüye dön
+← →    : Sağa / sola hareket
+↑      : Zıplama
+Space  : Alev saldırısı
+ESC    : Ana menüye dön
 
 🗂️ Proje Yapısı
-.
-├── oyun.py                # Ana oyun dosyası
-├── images/                # Oyuncu, düşman, alev ve arka plan görselleri
-│   ├── oyuncu_yürüme1.png
-│   ├── oyuncu_alev1.png
-│   ├── düşman_yürüme1.png
-│   ├── alev.png
-│   └── ...
-├── sounds/                # Ses efektleri
-│   └── background_music.wav
-└── README.md              # Proje açıklaması
+oyun.py         → Ana oyun dosyası
+images/         → Ekran görüntüleri ve sprite görselleri 
+sounds/         → Ses efektleri ve müzikler
+README.md       → Proje açıklaması
 
 🏆 Amaç
 
-Düşmanları alev saldırısıyla yok ederek puan kazan.
-
-Hayatta kalabildiğin kadar uzun süre dayan!
+Düşmanları alev saldırısıyla yok ederek puan kazan ve hayatta kalabildiğin kadar uzun süre dayan! 🔥👾🎮
