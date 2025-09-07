@@ -7,10 +7,10 @@ Bu proje, **Pygame Zero** kullanılarak geliştirilmiş 2D platform türünde bi
 **Oyun Başlangıcı**  
 ![Game Start](images/ekran1.png)  
 
-**Oyun Bitti Ekranı**  
+**Alev Atma**  
 ![Game Over](images/ekran2.png)  
 
-**Oynanış**  
+**Oyun Bitiş Ekranı**  
 ![Gameplay](images/ekran3.png)  
 
 ---
